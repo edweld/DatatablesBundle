@@ -1,21 +1,22 @@
 {
-    "name": "sg/datatablesbundle",
+    "name": "edweld/datatablesbundle",
     "type": "symfony-bundle",
+    "version": "1.0.0",
     "description": "Symfony Datatable Bundle For Doctrine2 Entities",
     "keywords": ["symfony2", "symfony3", "datatable", "datatables", "grid", "table", "datagrid", "pagination"],
-    "homepage": "https://github.com/stwe/DatatablesBundle",
+    "homepage": "https://github.com/edweld/DatatablesBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "stwe"
+            "name": "edweld"
         },
         {
             "name": "SgDatatablesBundle contributors",
-            "homepage": "https://github.com/stwe/DatatablesBundle/graphs/contributors"
+            "homepage": "https://github.com/edweld/DatatablesBundle/graphs/contributors"
         }
     ],
     "support": {
-        "issues": "https://github.com/stwe/DatatablesBundle/issues"
+        "issues": "https://github.com/edweld/DatatablesBundle/issues"
     },
     "require": {
         "php": ">=5.3.3",
