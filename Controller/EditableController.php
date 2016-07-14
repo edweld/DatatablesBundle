@@ -88,8 +88,9 @@ class EditableController extends Controller
                     null === $getter ? $entity->$setter($value) : $entity->$getter()->$setter($value);
                     $supportedFieldType = true;
                     break;
+                // Added by EW
                 case 'integer':
-                    null === $getter ? $entity->$setter((int) $value) : $entity->$getter()->$setter((int) $value);
+                    null === $getter ? $entity->$setter($value) : $entity->$getter()->$setter($value);
                     $supportedFieldType = true;
                     break;
                 default:
